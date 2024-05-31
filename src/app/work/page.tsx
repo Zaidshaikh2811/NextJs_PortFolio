@@ -15,35 +15,57 @@ import Image from "next/image";
 const projects = [
   {
     num: '01',
-    category: "frontend",
-    title: "project 1",
-    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus totam, enim optio magnam pariatur alias vitae qui. Nihil, sunt ducimus?",
-    stack: [{ name: "html 5" }, { name: "CSS 3" }, { name: "JavaScirpt" }],
-    image: "/portfolio/public/next.svg",
-    live: "",
-    github: ""
+    category: "Full Stack",
+    title: "EcoHarvest",
+    description: "EcoHarvest is an innovative tool designed to empower farmers by providing precise fertilizer recommendations, accurate crop predictions, and early disease detection using advanced machine learning techniques. By leveraging soil NPK values and environmental data, EcoHarvest optimizes agricultural productivity and sustainability",
+    stack: [{ name: "React" }, { name: "CSS " }, { name: "Redux" }],
+    image: "https://res.cloudinary.com/dhyczd7jv/image/upload/v1717176822/Screenshot_2024-05-31_225628_ie5xsn.png",
+    live: "https://silly-crepe-f44fe9.netlify.app/",
+    github: "https://github.com/Zaidshaikh2811/EcoHarvest"
 
   },
   {
     num: '02',
-    category: "frontend",
-    title: "project 1",
-    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus totam, enim optio magnam pariatur alias vitae qui. Nihil, sunt ducimus?",
-    stack: [{ name: "html 5" }, { name: "CSS 3" }, { name: "JavaScirpt" }]
-    , image: "/portfolio/public/next.svg",
+    category: "Full Stack",
+    title: "AirBnc",
+    description: "A Full Stack Booking App ",
+    stack: [{ name: "React" }, { name: "CSS " }, { name: "JavaScirpt" }, { name: "NodeJS" }, { name: "MongoDB" }]
+    , image: "https://res.cloudinary.com/dhyczd7jv/image/upload/v1717179454/Screenshot_2024-05-31_234613_p2av1r.png",
     live: "",
-    github: ""
+    github: "https://github.com/Zaidshaikh2811/AirBnc"
 
   },
   {
     num: '03',
-    category: "frontend",
-    title: "project 1",
-    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus totam, enim optio magnam pariatur alias vitae qui. Nihil, sunt ducimus?",
-    stack: [{ name: "html 5" }, { name: "CSS 3" }, { name: "JavaScirpt" }]
+    category: "Full Stack",
+    title: "Social Community App",
+    description: "A full Stack Social App for User's to Share their Thoughts and put Their Comments",
+    stack: [{ name: "NextJS" }, { name: "Tailwind" }, { name: "NodeJS" }, { name: "MongoDB" }]
     , image: "/portfolio/public/next.svg",
     live: "",
-    github: ""
+    github: "https://github.com/Zaidshaikh2811/Social-Community"
+
+  },
+  {
+    num: '04',
+    category: "frontend",
+    title: "Comfy Sloth",
+    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus totam, enim optio magnam pariatur alias vitae qui. Nihil, sunt ducimus?",
+    stack: [{ name: "React" }, { name: "CSS " }, { name: "Redux" }]
+    , image: "/portfolio/public/next.svg",
+    live: "",
+    github: "https://github.com/Zaidshaikh2811/Comfy-Sloth"
+
+  },
+  {
+    num: '05',
+    category: "frontend",
+    title: "React-Cocktail",
+    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus totam, enim optio magnam pariatur alias vitae qui. Nihil, sunt ducimus?",
+    stack: [{ name: "React" }, { name: "CSS " }, { name: "Redux" }]
+    , image: "/portfolio/public/next.svg",
+    live: "",
+    github: "https://github.com/Zaidshaikh2811/React-Cocktail"
 
   },
 ]
@@ -134,7 +156,7 @@ const Work = () => {
 
                       </div>
 
-                      <div className="relative w-full h-full">
+                      <div className="relative w-full h-64">
                         <Image src={project.image} fill className="object-cover" alt="" />
                         <img src={project.image} alt="" />
                       </div>
