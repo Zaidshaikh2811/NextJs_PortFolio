@@ -33,14 +33,14 @@ const about = {
 
 const experience = {
   title: "My Experience",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sit laudantium eligendi, corrupti quis assumenda similique earum cupiditate minus enim?",
+  description: "I developed a comprehensive Student and Fees Management System using React.js and Tailwind CSS to streamline the administrative processes for a college. The project focuses on efficiently managing student data, tracking fee payments, and generating detailed reports.",
 
 
   items: [
     {
-      company: "company",
-      position: "position",
-      duration: "duration"
+      company: "Maulana Azad Polytechnic",
+      position: "Front End Developer",
+      duration: "AUG 2024",
     }
   ]
 }
