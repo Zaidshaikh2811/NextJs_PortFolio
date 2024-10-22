@@ -2,8 +2,14 @@ import Photo from "@/components/Photo"
 import Socials from "@/components/Socials"
 import Stats from "@/components/Stats"
 import { Button } from "@/components/ui/button"
+import { Metadata } from "next"
 import { FiDownload } from "react-icons/fi"
 
+
+export const metadata: Metadata = {
+  title: "Mohammad Zaid shaikh",
+  description: "Personal Portfolio",
+};
 
 const page = () => {
   return (

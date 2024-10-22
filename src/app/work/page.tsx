@@ -16,6 +16,17 @@ const projects = [
   {
     num: '01',
     category: "Full Stack",
+    title: "AI Mock Interview",
+    description: "Developed a full-stack AI-powered mock interview platform using Next.js, Neon PostgreSQL, and Clerk for authentication. The platform allows users to input their job role, description, and experience level. Leveraging Gemini AI, users receive tailored interview questions and, after answering, get instant feedback with a detailed comparison to ideal responses. The system provides a rating, personalized feedback, and actionable insights for improvement, helping candidates refine their interview skills.",
+    stack: [{ name: "Next.js" }, { name: "Gemini AI" }, { name: "Neon PostgreSQL" }, { name: "Drizzle IO" }, { name: "Clerk" }, { name: "Stripe" }, { name: "React" }, { name: "Tailwind CSS" }],
+    image: "https://res.cloudinary.com/dhyczd7jv/image/upload/v1729605930/hiq59r12rglautcthnzs.png",
+    live: "https://mock-interview-8oulmfhgj-zaidshaikh2811s-projects.vercel.app/",
+    github: "https://github.com/Zaidshaikh2811/MockInterview"
+
+  },
+  {
+    num: '02',
+    category: "Full Stack",
     title: "JobBoard",
     description: "JobBoard is a full-stack job portal built with Next.js, allowing candidates to apply for jobs and recruiters to manage listings. It uses MongoDB and Supabase for real-time data handling, integrates Stripe for subscription payments, and Clerk for secure authentication. The platform features a responsive UI built with Tailwind CSS, optimized for performance and SEO.",
     stack: [{ name: "Next.js" }, { name: "MongoDB" }, { name: "Supabase" }, { name: "Clerk" }, { name: "Stripe" }, { name: "React" }, { name: "Tailwind CSS" }],
@@ -25,7 +36,7 @@ const projects = [
 
   },
   {
-    num: '01',
+    num: '03',
     category: "React Native App",
     title: "Expense Tracker",
     description: "Expense Tracker is a React Native app designed to help users efficiently manage their finances. The app allows users to create custom categories, set budgets, and track expenses. It uses Kinde for secure user authentication, ensuring that personal financial data is protected. With a user-friendly interface, the app provides a seamless experience for monitoring spending habits and staying within budget.",
@@ -36,7 +47,7 @@ const projects = [
 
   },
   {
-    num: '01',
+    num: '04',
     category: "Full Stack",
     title: "EcoHarvest",
     description: "EcoHarvest is an innovative tool designed to empower farmers by providing precise fertilizer recommendations, accurate crop predictions, and early disease detection using advanced machine learning techniques. By leveraging soil NPK values and environmental data, EcoHarvest optimizes agricultural productivity and sustainability",
@@ -47,7 +58,7 @@ const projects = [
 
   },
   {
-    num: '02',
+    num: '05',
     category: "Full Stack",
     title: "AirBnc",
     description: "A Full Stack Booking App ",
@@ -58,7 +69,7 @@ const projects = [
 
   },
   {
-    num: '03',
+    num: '06',
     category: "Full Stack",
     title: "Social Community App",
     description: "A full Stack Social App for User's to Share their Thoughts and put Their Comments",
@@ -69,7 +80,7 @@ const projects = [
 
   },
   {
-    num: '04',
+    num: '07',
     category: "frontend",
     title: "Comfy Sloth",
     description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus totam, enim optio magnam pariatur alias vitae qui. Nihil, sunt ducimus?",
@@ -80,7 +91,7 @@ const projects = [
 
   },
   {
-    num: '05',
+    num: '08',
     category: "frontend",
     title: "React-Cocktail",
     description: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus totam, enim optio magnam pariatur alias vitae qui. Nihil, sunt ducimus?",
@@ -178,7 +189,7 @@ const Work = () => {
 
                       </div>
 
-                      <div className="relative w-full h-[450px]">
+                      <div className="relative w-full h-[350px]">
 
                         <Image
                           src={project.image}

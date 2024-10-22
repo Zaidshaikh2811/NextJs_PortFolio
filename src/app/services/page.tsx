@@ -4,6 +4,13 @@ import { Description } from "@radix-ui/react-dialog"
 import Link from "next/link"
 import { BsArrowDownRight } from "react-icons/bs"
 
+
+const metadata = {
+  title: "Services",
+  description: "Provided Services",
+};
+
+
 const services = [
   {
     num: "01",
@@ -19,6 +26,7 @@ const services = [
   },
 ]
 import { motion } from "framer-motion"
+
 
 const Services = () => {
   return (
